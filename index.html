@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Cecilia Isabel Hernández Medina</title>
+    <!-- DESAFÍO PLUS: Añadir favicon aquí -->
+</head>
+<body>
+
+    <!-- ==================== HEADER: Tu nombre y título profesional ==================== -->
+    <header>
+        <!-- COMPLETAR: Tu nombre completo -->
+        <h1>[Cecilia Isabel Hernández Medina]</h1>
+
+        <!-- COMPLETAR: Tu título profesional o lo que estudias -->
+        <p>["Estudiante de Ingenieria de Software"]</p>
+    </header>
+
+    <!-- ==================== MAIN: Contenido principal del CV ==================== -->
+    <main>
+
+        <!-- SECCIÓN: Sobre Mí -->
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+
+            <!-- COMPLETAR: Breve descripción de ti (2-4 líneas) -->
+            <p>
+                Soy una estudiante apasionada por las tecnologias, me gusta encontrar ideas innovadoras para satisfacer las necesidades de mi comunidad. Tambien me gusta impulsar a mas personas a que conozcan las maravillas de la tecnologia y sobretodo alentar a niñas y mujeres a adentrarse en el ambito tecnologico. 
+            </p>
+
+            <!-- OPCIONAL: Segundo párrafo si necesitas más espacio -->
+            <p>
+                Me gusta trabajar en equipo, soy considerada como una buena lider y siempre intento alentar a los demas a seguir con sus sueños. Mi meta academica es alentar a mas personas a conocer sobre mi carrera.
+            </p>
+        </section>
+
+        <!-- SECCIÓN: Experiencia / Educación -->
+        <section id="experiencia">
+            <h2>Experiencia y Educación</h2>
+
+            <!-- Usamos una lista desordenada para items -->
+            <ul>
+                <!-- COMPLETAR: Item 1 -->
+                <li>
+                    <strong>[Secundaria Manuel Sandoval Vallarta]</strong> - [2018-2021]
+                    <br>
+                    Fui una estudiante muy dedicada, principalmente me enfoque en ayudar en proyectos sociales y mejore mis habilidades en matematicas y redaccion. Destacando en estas dos ultimas con algunos reconocimientos y menciones honorificas.
+                </li>
+
+                <!-- COMPLETAR: Item 2 -->
+                <li>
+                    <strong>[Bachillerato 30 - Universidad de Colima]</strong> - [2021-2024]
+                    <br>
+                    Durante este periodo encontre el amor a la tecnología, intente aprender lo mas que pude sobre esta area y segui influenciando mucho en algunas labores sociales que realizo mi escuela
+                </li>
+
+                <!-- COMPLETAR: Item 3 (opcional) -->
+                <li>
+                    <strong>[Carrera Ingenieria de Software]</strong> - [2024-Actualmente]
+                    <br>
+                    Actualmente sigo cursando la carrera en Ingenieria de Software y principalmente me enfoco en aprender Programacion y seguir fortaleciendo mis habilidades blandas para poder encontrar un camino hacia el exito.
+                </li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN: Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <!-- COMPLETAR: Lista de habilidades -->
+            <ul>
+                <li>Habilidad 1: Diseño de Frontend</li>
+                <li>Habilidad 2: Trabajo en equipo</li>
+                <li>Habilidad 3: HTML, CSS y JS</li>
+                <li>Habilidad 4: My SQL</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN: Contacto (Formulario) -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <!-- 
+                FORMULARIO HTML5 CON VALIDACIÓN NATIVA
+                Nota: Esto no envía emails aún (necesita backend), 
+                pero valida que los datos sean correctos
+            -->
+            <form action="#" method="post">
+
+                <!-- Campo de Email con validación automática -->
+                <p>
+                    <label for="email">Tu email:</label><br>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="ejemplo@correo.com"
+                        required
+                    >
+                </p>
+
+                <!-- Campo de Nombre (requerido) -->
+                <p>
+                    <label for="nombre">Tu nombre:</label><br>
+                    <input 
+                        type="text" 
+                        id="nombre" 
+                        name="nombre" 
+                        placeholder="¿Quién eres?"
+                        required
+                        minlength="2"
+                    >
+                </p>
+
+                <!-- Campo de Mensaje -->
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea 
+                        id="mensaje" 
+                        name="mensaje" 
+                        rows="4" 
+                        cols="50"
+                        placeholder="Escribe tu mensaje aquí..."
+                        required
+                        minlength="10"
+                    ></textarea>
+                </p>
+
+                <!-- Botón de envío -->
+                <button type="submit">Enviar Mensaje</button>
+
+            </form>
+
+            <!-- Información de contacto directo -->
+            <p>
+                <strong>Email directo:</strong> chernandez@ucol.mx<br>
+                <strong>Teléfono:</strong> 312-225-0228
+            </p>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER: Pie de página ==================== -->
+    <footer>
+        <p>&copy; 2024 [Cecilia Isabel Hernández Medina]. CV creado con HTML5.</p>
+
+        <!-- OPCIONAL: Enlace a tu GitHub -->
+        <p>
+            <a href="https://github.com/[TU-USUARIO]" target="_blank">
+                Ver mi GitHub
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
